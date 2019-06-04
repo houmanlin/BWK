@@ -1,0 +1,229 @@
+body{
+    overflow-x: hidden!important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    width: 100%!important;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.dianzi{
+    position: relative!important;
+    opacity: 0;
+    margin-top: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Search_input{
+    width: 45%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+}
+.Search_input input{
+    border: none;
+    background: #f8f8f8;
+}
+.searchIcon{
+    height: 36px;
+    width: auto;
+}
+
+.logo{
+    width: auto;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+}
+.Search{
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-border{
+    width: 100%;
+    height: 20px;
+    background:#f3f3f3;
+}
+
+/*九宫格*/
+
+.Grid{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #67b44e;
+
+}
+.Grid>li{
+    width: 20%;
+    height: 72px;
+    line-height: 72px;
+    color: #ffffff;
+}
+.GridList{
+    width: 100%;
+    height: 133px;
+    background: #ffffff;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.GridList img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.GridList text{
+    color: #888888;
+    line-height: normal;
+    display: block;
+}
+
+
+/* banner列表 */
+
+.bannerList{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #fff3cd;
+}
+.bannerList>li {
+    padding: 5px 0;
+}
+.bannerList img{
+    width: 100%;
+}
+
+/*  必屋头条  */
+.toutiao{
+    padding: 10px;
+}
+.toutiao text {
+    margin-left: 10px;
+}
+
+/*相关服务*/
+.AboutServer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.AboutMore{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.AboutMore>.More{
+    display: flex;
+    align-items: center;
+    color: red;
+    margin-left: 10px;
+}
+.More>text{
+    margin-right: 5px;
+    display: block;
+}
+
+.AboutTitle{
+    display: flex;
+    align-items: center;
+}
+.About{
+    font-size:22px ;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.AboutGride{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.AboutGride>li{
+    width: 25%;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+}
+.AboutCompany>li{
+    height: 65px;
+    line-height: 65px;
+}
+
+.NewPush{
+    color: #1b1e21!important;
+    font-weight: 500;
+}
+.MessageList{
+    height: 180px;
+    overflow: auto;
+}
+.MessageList>li{
+    height: 50px;
+   display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+}
+.ball{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #fc6264;
+    margin-right: 10px;
+}
+/*   热门搜索   */
+.HotSearch{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.HotSearch>li{
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+
+}
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #67b44e;
+    color: #ffffff;
+}
